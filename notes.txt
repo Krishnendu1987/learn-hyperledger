@@ -1,1 +1,28 @@
 #my blockchain notes
+
+# Setup GIT HUB
+
+  1. Create a working directory
+     cd work/
+  2. Clone the repository into local  
+     git clone https://github.com/Krishnendu1987/learn-hyperledger.git
+     ls
+     cd learn-hyperledger/
+   
+  3. Create a file and write something into it
+     touch notes.txt
+     vi notes.txt 
+  4. Check the status for the newly created file
+     git status
+  5. Add the file to the local repository
+     git add -A
+  6. Check the status for newly added file
+     git status
+  7. Login to the repository 
+     git config user.email "krishnendu.ke.chowdhury@gmail.com"
+     git config user.name "Krishnendu1987"
+  8. Commit the newly created file into the main repository
+     git commit -m 'my new notes file added'
+  9. Upload/Checkin the file into the Main Repository Master Branch  
+     git push origin master
+
