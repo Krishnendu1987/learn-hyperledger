@@ -1,0 +1,13 @@
+# To build the image from the dockerfile
+docker build - < Dockerfile
+# Search for the image
+docker image ls
+# Running the Image 
+docker run -i -t 242811b69a44
+# Removing the Container
+docker rm be88e322d7ba
+# Removing the Image
+docker rmi 242811b69a44
+# Error Faced
+python: can't open file './myscript.py': [Errno 2] No such file or directory
+
