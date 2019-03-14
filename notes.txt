@@ -21,7 +21,7 @@
   7. Login to the repository 
      git config user.email "krishnendu.ke.chowdhury@gmail.com"
      git config user.name "Krishnendu1987"
-  8. Commit the newly created file into the main repository
+  8. Commit the newly created file into the local repository
      git commit -m 'my new notes file added'
   9. Upload/Checkin the file into the Main Repository Master Branch  
      git push origin master
