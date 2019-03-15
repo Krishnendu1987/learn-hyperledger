@@ -1,7 +1,9 @@
 FROM python:3
 
-ADD . /
+WORKDIR /app
+
+ADD myscript.py /app
 
 RUN pip3 install pystrich
 
-CMD ["python","./myscript.py"]
+CMD ["python","myscript.py"]
