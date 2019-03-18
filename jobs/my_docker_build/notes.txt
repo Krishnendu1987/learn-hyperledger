@@ -12,4 +12,8 @@ docker rm 69040a39e76b
 # Removing the Image
 docker rmi mysampleimage
 
+# Use Requirement.txt instead of RUN
+# Use Docker Compose to run a service
+# Use Kubernetes for creating multiple services and run them at the same time
+
 
