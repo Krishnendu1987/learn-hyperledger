@@ -1,0 +1,21 @@
+# Create the directory structure and required file template  
+   cd work/
+    ls -lrt
+    cd learn-hyperledger/
+    ls -lrt
+    cd jobs/
+    ls -lrt
+    mkdir KUBERNETES-101
+    cd KUBERNETES-101/
+    touch notes.txt
+    mkdir web
+    cd web 
+    touch Dockerfile
+    touch app.py
+    touch deployment.yaml
+# Create the Docker file with content
+# Build an image from the Dockerfile
+## Open the terminal and type this command to build an image from your Dockerfile: docker build -t <image_name>:<tag> . (note the period to indicate we’re in our apps top level directory). For example: docker build -t app:latest .
+
+    
+

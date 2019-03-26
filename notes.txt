@@ -26,3 +26,24 @@
   9. Upload/Checkin the file into the Main Repository Master Branch  
      git push origin master
 
+
+# Setup Kanchan Tewari GIT Hub
+  
+  1. Move to working Directory
+     cd work/
+  2. clone Kanchan Tewary's GIT Repository
+     git clone https://github.com/kanchantewary/dqaas
+  3. modify some files or code in the repository
+  4. Add the file to the local repository
+     git add -A
+  5. Check the status for newly added file
+     git status
+  6. Login to the repository 
+     git config user.email "krishnendu.ke.chowdhury@gmail.com"
+     git config user.name "Krishnendu1987"
+  7. Commit the newly created file into the local repository
+     git commit -m 'my new notes file added'
+  8. Upload/Checkin the file into the Main Repository Master Branch  
+     git push origin master
+  9. To get the modified code from git from dqaas folder do this
+     git pull origin master
